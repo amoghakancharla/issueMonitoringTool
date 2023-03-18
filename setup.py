@@ -8,7 +8,9 @@ setup(
     author_email='ev.ustinov03@gmail.com',
     packages=find_packages(),
     install_requires=[
-        'requests'
+        'requests',
+        'aiogram',
+        'dotenv'
     ],
     entry_points={
         'console_scripts': [
